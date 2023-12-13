@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>webgl school 2023 three.js 0513 report</title>
+    <title>webgl school 2023 report 003</title>
     <script type="module" src="/src/main.ts"></script>
   </head>
-  <body x-data="webgl" @resize.window="resize">
+  <body>
+    <div x-data="webgl" class="fixed inset-0">
+      <div x-ref="stage" class="absolute inset-0"></div>
+    </div>
   </body>
 </html>

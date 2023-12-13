@@ -23,6 +23,7 @@
     "@alpinejs/ui": "^3.12.1-beta.0",
     "alpinejs": "^3.12.1",
     "camelcase": "^7.0.1",
+    "dat.gui": "^0.7.9",
     "gsap": "^3.11.5",
     "three": "^0.152.2"
   }
